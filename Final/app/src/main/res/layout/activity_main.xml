@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="23sp"
+            android:textColor="@color/purple_200"
+            android:text="喷火事件:" />
+        <EditText
+            android:id="@+id/tname"
+            android:hint="设置你的喷火事件名称吧！"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="0dp" >
+        <TextView
+            android:id="@+id/testfor"
+            android:layout_width="110dp"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="23sp"
+            android:textColor="@color/purple_200"
+            android:text="烧屏日期:" />
+        <TextView
+            android:id="@+id/tdate"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text=">" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="0dp" >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="23sp"
+            android:textColor="@color/purple_200"
+            android:text="烧屏时间:" />
+        <TextView
+            android:id="@+id/ttime"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text=">" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="0dp" >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="23sp"
+            android:textColor="@color/purple_200"
+            android:text="火速:" />
+        <TextView
+            android:id="@+id/tretime"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text=">" />
+    </TableRow>
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="30dp"
+        android:text="呼叫小火龙"
+        android:textSize="20sp" />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         />
+</LinearLayout>

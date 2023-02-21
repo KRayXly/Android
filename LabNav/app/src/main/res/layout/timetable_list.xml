@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="@color/yellow_1"
+        android:orientation="vertical">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="25dp"
+            android:text="[活动] 劳动教育"
+            android:id="@+id/list_check"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:text="活动时间：周三 周五 周日"
+            android:id="@+id/end_time"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:text="下次时间：2022-12-20"
+            android:id="@+id/next_time"/>
+    </LinearLayout>
+
+</LinearLayout>
